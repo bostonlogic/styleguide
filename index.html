@@ -1,4 +1,22 @@
-<div id="sg-nav">
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Style Guide</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='http://blp-prodcdn0.scdn5.secure.raxcdn.com/assets/backend/backend-823c40cbeada9741ae31c8fb9b4b0bc9.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="sg-nav">
  <a href="#anchor-colors" class="nav-item">Colors</a>
  <a href="#anchor-grid" class="nav-item">Grid</a>
  <a href="#anchor-typography" class="nav-item">Typography</a>
@@ -13,7 +31,7 @@
  <div id="anchor-colors" class="sg-section">
 
   <h1>Colors</h1>
-
+	 
   <div class="group">
    <h2 class="sub-section-header">Gray Palette</h2>
    <div class="color-palette color-primary" data-color="#666666" data-var="@color-gray1"></div>
@@ -22,7 +40,7 @@
    <div class="color-palette color-primary" data-color="#EEEEEE" data-var="@color-gray4"></div>
    <div class="color-palette color-white" data-color="#FFFFFF" data-var="@color-white"></div>
   </div>
-
+	 
   <div class="group">
    <h2 class="sub-section-header">Primary Palette</h2>
    <div class="color-palette color-primary" data-color="#F7941D" data-var="@color-primary1"></div>
@@ -31,20 +49,20 @@
    <div class="color-palette color-primary" data-color="#343C45" data-var="@color-primary4"></div>
    <div class="color-palette color-primary" data-color="#D54A92" data-var="@color-primary5"></div>
   </div>
-
+	 
   <div class="group">
    <h2 class="sub-section-header">Secondary Palette</h2>
    <div class="color-palette color-primary" data-color="#58AE99" data-var="@color-secondary1"></div>
    <div class="color-palette color-primary" data-color="#985BB2" data-var="@color-secondary2"></div>
   </div>
-
+  
   <div class="group">
    <h2 class="sub-section-header">Alert Palette</h2>
    <div class="color-palette color-primary" data-color="#D13E3E" data-var="@color-danger"></div>
    <div class="color-palette color-primary" data-color="#55B253" data-var="@color-success"></div>
    <div class="color-palette color-primary" data-color="#EDC83E" data-var="@color-warning"></div>
   </div>
-
+  
  </div>
  <div id="anchor-grid" class="sg-section" style="display:none;">
 
@@ -55,25 +73,25 @@
   <div class="row">
    <div class="col-md-12">.col-md-12</div>
   </div>
-
+  
   <div class="row">
    <div class="col-md-6">.col-md-6</div>
    <div class="col-md-6">.col-md-6</div>
   </div>
-
+  
   <div class="row">
    <div class="col-md-4">.col-md-4</div>
    <div class="col-md-4">.col-md-4</div>
    <div class="col-md-4">.col-md-4</div>
   </div>
-
+  
   <div class="row">
    <div class="col-md-3">.col-md-3</div>
    <div class="col-md-3">.col-md-3</div>
    <div class="col-md-3">.col-md-3</div>
    <div class="col-md-3">.col-md-3</div>
   </div>
-
+  
   <div class="row">
    <div class="col-md-2">.col-md-2</div>
    <div class="col-md-2">.col-md-2</div>
@@ -82,12 +100,12 @@
    <div class="col-md-2">.col-md-2</div>
    <div class="col-md-2">.col-md-2</div>
   </div>
-
+  
  </div>
  <div id="anchor-typography" class="sg-section" style="display:none;">
 
   <h1>Typography</h1>
-
+  
   <div class="group">
    <h1 class="page-title">Page Title | 24px Semibold</h1>
    <pre class='code code-html'><label>HTML</label><code>&lt;h1 class="page-title"&gt;Content Here!&lt;/h1&gt;</code></pre>
@@ -100,18 +118,18 @@
    <p>Body content/copy | 14px Regular</p>
    <pre class='code code-html'><label>HTML</label><code>&lt;p&gt;Content Here!&lt;/p&gt;</code></pre>
   </div>
-
+  
  </div>
  <div id="anchor-buttons" class="sg-section" style="display:none;">
 
   <h1 class="page-title">Buttons</h1>
 
-  <div class="group">
+  <div class="group">    
     <h2 class="sub-section-header">Primary Action (Create new items, Save, Send, etc.)</h2>
     <a class="c-btn c-btn--primary">Button</a>
     <pre class='m-t-20 code code-html'><label>HTML</label><code>&lt;a class="c-btn c-btn--primary"&gt;Button&lt;/a&gt;</code></pre>
   </div>
-
+  
   <div class="group">
     <h2 class="sub-section-header">Primary Action (Add to, Export, Move, etc.)</h2>
     <a class="c-btn c-btn--outline-primary">Button</a>
@@ -135,13 +153,13 @@
       &lt;a class="c-btn c-btn--more-dark"&gt;&lt;/a&gt;</code></pre>
   </div>
 
-  <div class="group">
+  <div class="group">    
     <h2 class="sub-section-header">Secondary Action (Reset, Back, Select all, etc.)</h2>
     <a class="c-link c-link--underline">Button Link</a>
     <pre class='m-t-20 code code-html'><label>HTML</label><code>&lt;a class="c-link c-link--underline"&gt;Button Link&lt;/a&gt;</code></pre>
   </div>
 
-  <div class="group">
+  <div class="group">    
     <h2 class="sub-section-header">Toggle Buttons</h2>
     <div class="c-btn-toggle">
       <div class="c-btn-toggle__btn">One</div>
@@ -154,8 +172,8 @@
     </code></pre>
 
   </div>
-
-  <div class="group">
+  
+  <div class="group">    
     <div class="c-btn-toggle">
       <div class="js-btn-toggle__btn--grid c-btn-toggle__btn c-btn-toggle__btn--icon fa fa-sl-grid"></div>
       <div class="js-btn-toggle__btn--list c-btn-toggle__btn c-btn-toggle__btn--icon fa fa-sl-list active"></div>
@@ -170,7 +188,7 @@
 
   </div>
 
-  <div class="group">
+  <div class="group">    
     <h2 class="sub-section-header">Pagination</h2>
     <ul class="pagination m-t-0 m-b-0">
       <li class="prev disabled"><span><i class="fa fa-angle-left"></i></span></li>
@@ -192,7 +210,7 @@
     </code></pre>
   </div>
 
-  <div class="group">
+  <div class="group">    
     <h2 class="sub-section-header">Save Search</h2>
     <div class="c-save-search-flag">
       <div class="c-save-search-flag__star "></div>
@@ -204,7 +222,7 @@
 
  </div>
  <div id="anchor-forms" class="sg-section" style="display:none;">
-
+   
   <h1 class="page-title">Forms</h1>
 
   <div class="group">
@@ -245,7 +263,7 @@
  &lt;input id=&quot;defaultName&quot; name=&quot;defaultName&quot; type=&quot;checkbox&quot; value=&quot;1&quot;&gt;
  &lt;label for=&quot;defaultName&quot;&gt;Default&lt;/label&gt;
 &lt;/div&gt;
-    </code></pre>
+    </code></pre>    
   </div>
 
  </div>
@@ -260,7 +278,7 @@
 	 </div>
 
 		<pre class='m-t-20 code code-javascript'><label>JS</label><code>$('.js-spinner').show();</code></pre>
-
+ 
 	 </div>
  <div class="group" style="position:relative;max-width:750px;">
 	<h2 class="sub-section-header">Small Alert</h2>
@@ -312,7 +330,7 @@
  <div id="anchor-tables" class="sg-section" style="display:none;">
   <h1 class="page-title">Tables / Lists</h1>
   <h2 class="sub-section-header m-b-0">Main Tables</h2>
-
+  
 	 <table class="c-table m-t-20 m-b-40" style="max-width:1200px;position:relative;">
    <thead>
     <tr class="c-table__header-row">
@@ -395,7 +413,7 @@
     </tr>
    </tbody>
   </table>
-
+	 
   <h2 class="sub-section-header">Task List</h2>
 
   <div class="c-action-plan__list js-action-plan__list" style="display:block;width:400px;">
@@ -409,7 +427,7 @@
  </div>
  <div id="anchor-cards" class="sg-section" style="display:none;">
   <h1 class="page-title">Cards</h1>
-
+	 
   <h2 class="sub-section-header m-b-0">Property Cards</h2>
   <div class="c-property-card" style="width:375px;margin-left:0px;">
    <div class="c-property-card__top-section">
@@ -442,14 +460,14 @@
     </a>
    </div>
   </div>
-
-	<pre class='m-t-20 code code-javascript'><label>RAILS</label><code>&lt;%= render(:partial =&gt; 'admin/searches/new_search/prop_card', :locals =&gt; {
- :prop =&gt; prop,
- :hit =&gt; hit,
- :exclusive =&gt; current_company.our_prop?(mls_hit_company_list_property(hit)),
- :lead_manager =&gt; logged_in_broker_or_admin_or_lead_manager_or_office_manager?
+	
+	<pre class='m-t-20 code code-javascript'><label>RAILS</label><code>&lt;%= render(:partial =&gt; 'admin/searches/new_search/prop_card', :locals =&gt; { 
+ :prop =&gt; prop, 
+ :hit =&gt; hit, 
+ :exclusive =&gt; current_company.our_prop?(mls_hit_company_list_property(hit)), 
+ :lead_manager =&gt; logged_in_broker_or_admin_or_lead_manager_or_office_manager? 
 }) %&gt;</code></pre>
-
+	
 	<h2 class="sub-section-header m-b-0">Infobubbles</h2>
 	<div class="c-google-map-info-box bounce-in" style="width:400px;box-shadow:0px 0px 10px rgba(0,0,0,.1)">
   	<div class="c-google-map-info-box__left">
@@ -476,3 +494,16 @@
   </div>
  </div>
 </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

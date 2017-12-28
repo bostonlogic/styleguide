@@ -11,9 +11,9 @@ var initToggleButton = function() {
 	$('.c-btn-toggle').children().click(function() {
 		if (!$(this).hasClass('single')){
 			$(this).siblings(':not(.single)').removeClass('active');
-			$(this).addClass('active');
+			$(this).addClass('active');	
 		} else {
-			$(this).toggleClass('active');
+			$(this).toggleClass('active');	
 		}
 	});
 }
